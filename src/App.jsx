@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import "/App.css";
 import Sidebar from "./Components/Sidebar";
 import {AiOutlineDelete} from "react-icons/ai";
 import {BsCheckLg} from "react-icons/bs";
