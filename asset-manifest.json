@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/candy-kush/my-todo-app/static/css/main.bdfa252e.css",
-    "main.js": "/candy-kush/my-todo-app/static/js/main.223a3b1e.js",
+    "main.css": "/candy-kush/my-todo-app/static/css/main.afd4e7b2.css",
+    "main.js": "/candy-kush/my-todo-app/static/js/main.3b080427.js",
     "index.html": "/candy-kush/my-todo-app/index.html",
-    "main.bdfa252e.css.map": "/candy-kush/my-todo-app/static/css/main.bdfa252e.css.map",
-    "main.223a3b1e.js.map": "/candy-kush/my-todo-app/static/js/main.223a3b1e.js.map"
+    "main.afd4e7b2.css.map": "/candy-kush/my-todo-app/static/css/main.afd4e7b2.css.map",
+    "main.3b080427.js.map": "/candy-kush/my-todo-app/static/js/main.3b080427.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdfa252e.css",
-    "static/js/main.223a3b1e.js"
+    "static/css/main.afd4e7b2.css",
+    "static/js/main.3b080427.js"
   ]
 }
