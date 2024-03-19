@@ -22,7 +22,8 @@
     "dev": "vite",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev": "vite"
   },
   "eslintConfig": {
     "extends": [
