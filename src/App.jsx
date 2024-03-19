@@ -3,7 +3,7 @@ import "./App.css";
 import Sidebar from "./Components/Sidebar";
 import {AiOutlineDelete} from "react-icons/ai";
 import {BsCheckLg} from "react-icons/bs";
-import moment from "moment/moment";
+import moment from 'moment';
 
 function App() {
 
@@ -15,6 +15,10 @@ function App() {
 
   const handleAddTodo = (e) => {
     let assignedOn = moment().format('LLLL');
+
+    if(newTitle.length === 0) {
+      return;
+    }
 
     let newTodoItem = {
       title: newTitle,
@@ -71,7 +75,8 @@ function App() {
     if(savedCompletedTodo) {
       setCompleteTodo(savedCompletedTodo);
     }
-  },[])
+  },[]);
+
 
   return (
 
@@ -86,21 +91,15 @@ function App() {
       <div className="todo-wrapper">
         <h1> Task List </h1>
         <div className="todo-input">
-          <div className="todo-input-item">
-            <input type="text" placeholder="Try 'To shop veggies'!"
-              value={newTitle} onChange={(e) => setNewTitle(e.target.value)} />
-          </div>
+          <input type="text" placeholder="Try 'To shop veggies'!"
+            value={newTitle} onChange={(e) => setNewTitle(e.target.value)} />
+              
+          <input type="text" placeholder="Add Task description"
+            value={newDescription} onChange={(e) => setNewDescription(e.target.value)} />
 
-          <div className="todo-input-item">
-            <input type="text" placeholder="Add Task description"
-              value={newDescription} onChange={(e) => setNewDescription(e.target.value)} />
-          </div>
-
-          <div className="todo-input-item">
-            <button className="btn" onClick={handleAddTodo} >
+          <button className="btn" onClick={handleAddTodo} >
             <label className="label add">Add</label>
-            </button>
-          </div>
+          </button>
 
         </div>
 
