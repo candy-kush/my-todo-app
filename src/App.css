@@ -209,7 +209,7 @@ h1 {
 }
 
 .todo-list-item {
-    background: var(--bg-dark);
+    background: linear-gradient(rgb(254, 221, 172), rgb(255, 246, 234));
     display: flex;
     padding: 1rem;
     margin: 1rem;
@@ -220,7 +220,7 @@ h1 {
 }
 
 .completed-screen {
-    background: rgb(255, 228, 194);
+    background: linear-gradient(to top, rgb(255, 237, 212), white);
 }
 
 .todo-list-item h3 {
