@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "/App.css";
+import "./App.css";
 import Sidebar from "./Components/Sidebar";
 import {AiOutlineDelete} from "react-icons/ai";
 import {BsCheckLg} from "react-icons/bs";
@@ -83,13 +83,8 @@ function App() {
     <div className="App">
 
       <Sidebar />
-
-      <div className="header">
-        <h1>My To-Do App </h1> 
-      </div>
-
       <div className="todo-wrapper">
-        <h1> Task List </h1>
+        <h1> Add Jobs </h1>
         <div className="todo-input">
           <input type="text" placeholder="Try 'To shop veggies'!"
             value={newTitle} onChange={(e) => setNewTitle(e.target.value)} />
@@ -121,16 +116,19 @@ function App() {
               return(
                 <div className="todo-list-item" key={index}>
 
-                <div className="list-content">
-                  <h3>{item.title}</h3>
-                  <p>{item.description}</p>
-                  <p><small>Added On : {item.assignedOn}</small></p>
-                </div>
+                  <div className="list-content">
+                    
+                    <div className="icons">
+                      <h3>{item.title}</h3>
+                      <div className="icon-boxes">
+                        <AiOutlineDelete className="icon" onClick={() => handleDeleteTodo(index)} title="Delete" />
+                        <BsCheckLg className="check-icon" onClick={() => handleComplete(index)} title="Mark Done"/>
+                      </div>
+                    </div>
 
-                <div className="icons">
-                  <AiOutlineDelete className="icon" onClick={() => handleDeleteTodo(index)} title="Delete" />
-                  <BsCheckLg className="check-icon" onClick={() => handleComplete(index)} title="Mark Done"/>
-                </div>
+                    <p>{item.description}</p>
+                    <p><small>Added On : {item.assignedOn}</small></p>
+                  </div>
 
                 </div>
               )
@@ -143,13 +141,12 @@ function App() {
                 <div className="todo-list-item completed-screen" key={index}>
 
                 <div className="list-content">
-                  <h3>{item.title}</h3>
+                  <div className="icons">
+                    <h3>{item.title}</h3>
+                    <AiOutlineDelete className="icon" onClick={() => handleDeleteCompletedTodo(index)} title="Delete ?" />
+                  </div>
                   <p>{item.description}</p>
                   <p><small> Done at : {item.completedOn}</small></p>
-                </div>
-
-                <div className="icons">
-                  <AiOutlineDelete className="icon" onClick={() => handleDeleteCompletedTodo(index)} title="Delete ?" />
                 </div>
 
                 </div>
