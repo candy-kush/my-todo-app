@@ -19,11 +19,11 @@ This project is designed to provide a seamless experience for managing your dail
 ## Getting Started
 To get started with the application, follow these steps:
 
-Clone the repository to your local machine. \
-Navigate to the project directory. \
-Install dependencies using npm install. \
-Run the development server using npm start. \
-Access the application in your browser at http://localhost:3000.
+1. Clone the repository to your local machine. \
+2. Navigate to the project directory. \
+3. Install dependencies using npm install. \
+4. Run the development server using npm start. \
+5. Access the application in your browser at http://localhost:3000.
 
 ## Screenshots and Videos Link
 
