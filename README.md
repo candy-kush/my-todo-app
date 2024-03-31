@@ -27,6 +27,9 @@ Access the application in your browser at http://localhost:3000.
 
 ## Screenshots and Videos Link
 
+<img src="https://github.com/candy-kush/my-todo-app/blob/main/public/Screenshot%202024-03-31%20133037.png" width="500" height="320" /> <img src="https://github.com/candy-kush/my-todo-app/blob/main/public/Screenshot%202024-03-31%20133354.png" width="500" height="320" />
+
+<img src="https://github.com/candy-kush/my-todo-app/blob/main/public/Screenshot%202024-03-31%20133426.png" width="500" height="320" /> <img src="https://github.com/candy-kush/my-todo-app/blob/main/public/Screenshot%202024-03-31%20133636.png" width="500" height="320" />
 
 # Getting Started with Create React App
 
