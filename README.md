@@ -1,3 +1,33 @@
+# My Todo App
+
+Welcome to the repository for my React-based Todo Web Application! \
+This project is designed to provide a seamless experience for managing your daily tasks with a beautiful and intuitive user interface.
+
+## Features
+`CRUD Functionality`: Create, Read, Update, and Delete tasks effortlessly. \
+`Responsive Design`: The application is optimized for various screen sizes, ensuring a consistent experience across devices. \
+`Intuitive User Interface`: With a clean and modern UI, managing your tasks becomes a breeze. \
+`Easy to Use`: Whether you're new to todo applications or a seasoned user, you'll find navigating this app a delight.
+
+## Technologies Used
+`React`: Utilizing the power of React for efficient and dynamic UI rendering. \
+`JavaScript`: The primary language for implementing the application logic. \
+`CSS`: Styling the application for a visually appealing experience. \
+`LocalStorage`: Persisting data locally for seamless user experience.
+
+
+## Getting Started
+To get started with the application, follow these steps:
+
+Clone the repository to your local machine. \
+Navigate to the project directory. \
+Install dependencies using npm install. \
+Run the development server using npm start. \
+Access the application in your browser at http://localhost:3000.
+
+## Screenshots and Videos Link
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
